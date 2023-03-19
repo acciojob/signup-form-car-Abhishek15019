@@ -13,18 +13,23 @@
 	<form action="/action_page.php" method="get">
   <label for="#name">Name*</label>
   <input type="text" id="#name" placeholder="Name" required><br><br>
+		
   <label for="#email">Email*</label>
   <input type="text" id="#email" placeholder="Email" required><br><br>
-  <label for="Gender_m">Gender:*</label>
-   Male<input type="radio" id="#gender_m" required>
-	<label for="Gender_f"></label>
-   Female<input type="radio" id="#gender_f" required><br><br>
+
+		<label for="gender_m"></label>
+  Gender* &nbsp; Male<input type="radio" name="Myradio" id="gender_m"> 
+		<label for="gender_f"></label>
+		Female<input type="radio" name="Myradio" id="gender_f"><br><br>
+           
+		
 		 <label for="cars">Choose your car*</label> 
                <select name="cars" id="cars" placeholder="--Please choose an option--">
                 <option value="bmw" >BMW</option>
                 <option value="audi">Audi</option>
                 <option value="mer">Mercedes</option>
                </select><br><br>
+		
 	<label for="#age">Age*</label>
   <input type="number" id="#age" placeholder="Age"><br><br>
 	<label for="#dob">DOB*</label>
